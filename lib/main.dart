@@ -27,7 +27,8 @@ class Messages extends _$Messages {
   Future<String> sendRequestAndFetchResponse(String prompt) async {
     try {
       // Define the URL of the API endpoint
-      String apiUrl = 'https://pythiapowerclubglobal.loophole.site/';
+      String apiUrl =
+          'https://pythiapowerclubglobal.loophole.site/process_prompt/';
 
       // Define the request body
       Map<String, String> requestBody = {
